@@ -1,4 +1,4 @@
-# Configurando SDK do Android no Linux
+# Configurando SDK do Android no Linux/OS X (Mac)
 
 Crie uma pasta em um local desejado para instalação da SDK. Ex: `~/Android/Sdk`
 
