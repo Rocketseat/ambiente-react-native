@@ -27,14 +27,14 @@ O ambiente Android pode ser configurado no Mac OSX, Linux e Windows, siga o guia
 ### Linux
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](linux-dependencias.md)
-2. Instale a configure a SDK do Android: [Configurando SDK](linux-android-sdk.md)
+2. Instale a configure a SDK do Android: [Configurando SDK](unix-android-sdk.md)
 3. Instale e configure o emulador Genymotion: [Configurando Genymotion](genymotion.md)
 
 
 ### OS X (Mac)
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](osx-dependencias.md)
-2. Instale a configure a SDK do Android: [Configurando SDK](osx-android-sdk.md)
+2. Instale a configure a SDK do Android: [Configurando SDK](unix-android-sdk.md)
 3. Instale e configure o emulador Genymotion: [Configurando Genymotion](genymotion.md)
 
 ## iOS (Apenas Mac)
