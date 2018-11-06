@@ -1,4 +1,4 @@
-Para configurar o ambiente Android no Linux, vamos precisar instalar 3 dependências: Node e JDK.
+Para configurar o ambiente Android no Linux, vamos precisar instalar 2 dependências: Node e JDK.
 
 Certifique-se que você tenha o cURL instalado executando o seguinte comando no terminal:
 
