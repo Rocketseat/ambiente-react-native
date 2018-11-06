@@ -19,4 +19,6 @@ O ambiente Android pode ser configurado no Mac OSX, Linux e Windows, siga o guia
 ### Windows
 
 1. Instale o Chocolatey e as demais dependências: [Instalando chocolatey](windows-chocolatey.md)
+2. Instale a configure a SDK do Android: [Configurando SDK](windows-android-sdk.md)
+3. Instale e configure o emulador Genymotion: [Configurando Genymotion](genymotion.md)
 
