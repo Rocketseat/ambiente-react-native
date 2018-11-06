@@ -1,3 +1,5 @@
+![Rocketseat](assets/rocketseat.png)
+
 # Ambiente React Native (Android/iOS)
 
 Para testar nossas aplicações em dispositivos reais iremos utilizar emuladores que são apps que imitam o funcionamento de um dispositivo físico dentro do nosso sistema. Infelizmente no Windows e no Linux ainda não é possível configurar um emulador de iOS de forma nativa e, por isso, vamos focar no Android nessas duas plataformas.
