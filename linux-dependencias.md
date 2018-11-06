@@ -34,7 +34,7 @@ sudo apt-get install openjdk-8-jdk
 Podemos testar a instalação do JDK com o seguinte comando:
 
 ```sh
-java -vversion
+java -version
 ```
 
 Em grande parte das vezes precisamos instalar algumas bibliotecas da versão 32bits do Linux para conseguir emular nosso projeto e para isso vamos utilizar o seguinte comando:
