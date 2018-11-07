@@ -18,7 +18,7 @@ chmod +x genymotion-2.2.2_x64.bin
 ./genymotion-2.2.2_x64.bin
 ```
 
-***ATENÇÃO: Altere o nome do arquivo com a versão que você baixou (pode utilizar o TAB para completar o nome quando estiver digitando)***
+***ATENÇÃO: Altere 2.2.2 pela versão do Genymotion que você baixou.***
 
 Com isso o Genymotion será instalado em seu sistema e você já pode acessá-lo a partir da pasta de instalação. Por padrão a pasta que o Genymotion é instalado é “/home/[usuario]/genymotion/“. Acesse essa pasta pelo terminal e execute o seguinte comando para abrir o Genymotion:
 
