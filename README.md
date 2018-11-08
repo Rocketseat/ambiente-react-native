@@ -53,3 +53,6 @@ Você pode ainda escolher a versão do emulador utilizado passando uma proprieda
 react-native run-ios --simulator="iPhone XS Max"
 ```
 
+## Erros comuns
+
+Para resolução de erros comuns no processo de configuração de ambiente do React Native, acesse [Erros comuns](erros-comuns.md)
