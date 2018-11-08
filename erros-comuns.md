@@ -37,7 +37,7 @@ Esse erro geralmente acontece pois o React Native não conseguiu configurar as d
 Para resolver acesse a pasta `node_modules/react-native/scripts` e execute:
 
 ```sh
-./ios-configure-third-party.sh
+./ios-install-third-party.sh
 ```
 
 Assim que finalizar, execute:
