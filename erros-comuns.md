@@ -16,6 +16,16 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 
 Agora, feche as abas do terminal e rode `react-native run-android` novamente.
 
+## react-native run-android: FAILURE: Build failed with an exception.
+
+Esse erro pode acontecer por muitos motivos, mas na maioria das vezes é algum cache que precisa ser deletado.
+
+Para resolver execute na pasta do seu projeto:
+
+```sh
+cd android && gradlew clean cd .. && react-native run-android
+```
+
 # iOS
 
 Lista de erros comuns enfrentados no iOS:
