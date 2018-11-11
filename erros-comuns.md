@@ -40,10 +40,10 @@ Para resolver acesse a pasta `node_modules/react-native/scripts` e execute:
 ./ios-install-third-party.sh
 ```
 
-Assim que finalizar, execute:
+Assim que finalizar, acesse a pasta `third-party/glog-x-x-x`, preencha `x-x-x` com a versão instalada (você pode utilizar o TAB para completar digitando `glog-` e clicando TAB). Dentro dessa pasta execute:
 
 ```sh
-./ios-configure-glog.sh
+../../ios-configure-glog.sh
 ```
 
 Depois disso, volte à pasta do seu projeto e rode `react-native run-ios` (Pode ser necessário rodar duas vezes).
