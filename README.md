@@ -1,5 +1,7 @@
 ![Rocketseat](assets/rocketseat.png)
 
+**Importante: todo o conteúdo do antigo PDF para configuração do ambiente de desenvolvimento foi migrado para este repositório. Dessa forma fica mais fácil manter todas as informações atualizadas e incluir ainda soluções para as dificuldades mais comuns que os devs encontram.**
+
 # Ambiente React Native (Android/iOS)
 
 Para testar nossas aplicações em dispositivos reais iremos utilizar emuladores que são apps que imitam o funcionamento de um dispositivo físico dentro do nosso sistema. Infelizmente no Windows e no Linux ainda não é possível configurar um emulador de iOS de forma nativa e, por isso, vamos focar no Android nessas duas plataformas.
