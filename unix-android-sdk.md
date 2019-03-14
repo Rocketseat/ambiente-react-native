@@ -25,4 +25,4 @@ Agora, abra seu Terminal e execute o seguinte comando:
 ~/Android/Sdk/tools/bin/sdkmanager  "platform-tools" "platforms;android-27" "build-tools;27.0.3" 
 ```
 
-*Aceite todas licensas digitando `y` caso necessário.
+*Aceite todas licenças digitando `y` caso necessário.
