@@ -26,6 +26,13 @@ Para resolver execute na pasta do seu projeto:
 cd android && gradlew clean cd .. && react-native run-android
 ```
 
+## Erros ao tentar ativar o JDK ou inicializar o projeto React Native
+
+Seu sistema pode ter diversar versões do Java instaladas, para selecionar qual versão quer ativar use o comando:
+`sudo update-alternatives --config java` e selecione a versão 8.
+
+Caso você tenha iniciado o projeto `react-native init projeto` com uma versão do java acima da 8 e encontre alguns erros de build tente reinicializar (criar uma projeto novo) após ativar a versão 8 do java.
+
 # iOS
 
 Lista de erros comuns enfrentados no iOS:
@@ -68,7 +75,7 @@ Esse comando irá limpar o cache do React Native provavelmente resolvendo o erro
 
 ## Your CPU is incompatible with virtualization technologies
 
-Segundo o erro, sua CPU não permite virtualização. 
+Segundo o erro, sua CPU não permite virtualização.
 
 Para tentar resolver, você pode acessar a BIOS da sua máquina e procurar por alguma opção com o nome VT-x ou Virtualizartion e alterar de "disabled" para "enabled".
 
