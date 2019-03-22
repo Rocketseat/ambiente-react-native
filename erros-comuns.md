@@ -47,6 +47,16 @@ Com o caminho em mãos (vamos supor que seja `/Users/myuser/Android/Sdk`) vamos 
 
 Após executar esse comando, digite `y` para todas as perguntas abaixo.
 
+## react-native run-android: BUILD FAILURE: No connected devices!
+
+Esse erro geralmente acontece quando o Android Debug Bridge (adb) não está conectado com o emulador. Digite no terminal `adb devices` com o emulador aberto, se aparecer a mensagem **List of devices attached** , provavelmente este é o seu problema.
+
+Para resolver basta parar o serviço do bundle e na janela do emulador aberto verificar o **IP** do dispositivo ( basta esticar a janela e ver na descrição dela o número de IP ), depois digite o seguinte comando: `adb connect SeuIP:5555`
+
+Irá aparecer uma mensagem de que o dispositivo foi **conectado com sucesso!**.
+
+Para confirmar se está tudo certo digite novamente `adb devices`, se aparecer o nome do seu dispositivo basta rodar o comando novamente : `react-native run-android`
+
 # iOS
 
 Lista de erros comuns enfrentados no iOS:
