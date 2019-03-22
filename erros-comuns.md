@@ -33,6 +33,20 @@ Seu sistema pode ter diversar versões do Java instaladas, para selecionar qual 
 
 Caso você tenha iniciado o projeto `react-native init projeto` com uma versão do java acima da 8 e encontre alguns erros de build tente reinicializar (criar uma projeto novo) após ativar a versão 8 do java.
 
+## Failed to install the following Android SDK packages as some licences have not been accepted.
+
+Esse erro geralmente acontece por alguma licença não ter sido aceitada na SDK do Android.
+
+Primeiramente é necessário você conhecer o caminho da SDK do Android instalada em sua máquina. O caminho geralmenta aparece abaixo desse erro ou pode ser recuperado pela variável ambiente ANDROID_HOME ou até dentro da aba ADB na configuração do Genymotion.
+
+Com o caminho em mãos (vamos supor que seja `/Users/myuser/Android/Sdk`) vamos rodar o comando:
+
+```
+/Users/myuser/Android/Sdk/tools/bin/sdkmanager --licenses
+```
+
+Após executar esse comando, digite `y` para todas as perguntas abaixo.
+
 # iOS
 
 Lista de erros comuns enfrentados no iOS:
