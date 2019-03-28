@@ -44,10 +44,10 @@ Agora, teste se a instalação ocorreu corretamente executando o seguinte comand
 choco
 ```
 
-Agora vamos instalar o Node, Python2 e a JDK8 (Java Development Kit 8).
+Agora vamos instalar o Node, Python2, JDK8 (Java Development Kit 8) e o Yarn.
 
 ```sh
-choco install -y nodejs.install python2 jdk8
+choco install -y nodejs.install python2 jdk8 yarn
 ```
 
 *Se você tiver o NodeJS já instalado em sua máquina, certifique-se que sua versão é superior à 7 e caso esteja com o JDK instalado em sua máquina, certifique-se que sua versão seja a 8.*
@@ -56,8 +56,6 @@ Agora com as dependências instaladas, vamos instalar o CLI (Command Line Interf
 
 ```sh
 npm install -g react-native-cli
-
-// Ou yarn global add react-native-cli
 ```
 
 Se tudo ocorreu bem até aqui, você conseguirá executar o seguinte comando:
