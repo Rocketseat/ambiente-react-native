@@ -52,6 +52,11 @@ choco install -y nodejs.install python2 jdk8 yarn
 
 *Se você tiver o NodeJS já instalado em sua máquina, certifique-se que sua versão é superior à 7 e caso esteja com o JDK instalado em sua máquina, certifique-se que sua versão seja a 8.*
 
+Agora, vamos reiniciar o Terminal (Não se preocupe, ele não vai fechar!)
+```sh
+refleshenv
+```
+
 Agora com as dependências instaladas, vamos instalar o CLI (Command Line Interface) do React Native que nos ajudará na criação e teste de novos projetos. Nesse passo você provavelmente deve reiniciar seu terminal para o comando funcionar.
 
 ```sh
