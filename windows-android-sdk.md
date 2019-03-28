@@ -14,9 +14,13 @@ Agora, no Painel de Controle do Windows, abra o item “Sistema e Segurança” 
 
 Na mesma janela de "Variáveis de ambiente" no Windows, clique na variável PATH e então em "Editar". Haverá uma lista de caminhos e você deve adicionar esses dois novos caminhos no fim da lista:
 
+*Primeiro*
 ```
-%ANDROID_HOME%\platform-tools
-%ANDROID_HOME%\tools
+%ANDROID_HOME%\platform-tools;
+```
+*Segundo*
+```
+%ANDROID_HOME%\tools;
 ```
 
 Agora, abra seu Command Prompt ou PowerShell como administrador e execute o seguinte comando:
