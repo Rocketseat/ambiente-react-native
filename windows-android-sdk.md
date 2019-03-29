@@ -2,7 +2,7 @@
 
 Crie uma pasta em um local desejado para instalação da SDK. Ex: `C:\Android\Sdk`.
 
-*Anote esse caminho para ser utilizado posteriormente*
+**Anote esse caminho para ser utilizado posteriormente**
 
 Acesse https://developer.android.com/studio/#downloads, na opção "Command line tools only" baixe a SDK referente ao seu sistema operacional.
 
@@ -14,10 +14,16 @@ Agora, no Painel de Controle do Windows, abra o item “Sistema e Segurança” 
 
 Na mesma janela de "Variáveis de ambiente" no Windows, clique na variável PATH e então em "Editar". Haverá uma lista de caminhos e você deve adicionar esses dois novos caminhos no fim da lista:
 
+*Primeiro*
 ```
 %ANDROID_HOME%\platform-tools
+```
+*Segundo*
+```
 %ANDROID_HOME%\tools
 ```
+**OBS: Sempre coloque ponto-e-virgula ";" no final dos caminhos como visto no exemplo abaixo para eles não se juntarem:**
+
 
 Agora, abra seu Command Prompt ou PowerShell como administrador e execute o seguinte comando:
 
