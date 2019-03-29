@@ -1,12 +1,14 @@
 # Configurando Genymotion
 
-Utilizaremos o Genymotion como emulador do Android. Escolhi o Genymotion pelo fato de ser mais estável e rápido, mas você pode escolher utilizar o emulador do Android Studio. Antes de instalar o Genymotion vamos instalar o VirtualBox. Para ambientes **Linux** basta executar o seguinte comando no terminal:
+Utilizaremos o Genymotion como emulador do Android. Escolhi o Genymotion pelo fato de ser mais estável e rápido, mas você pode escolher utilizar o emulador do Android Studio.
 
+### Antes de instalar o Genymotion vamos instalar o VirtualBox.
+
+Para ambientes **Linux** basta executar o seguinte comando no terminal:
 ```sh
 sudo apt-get install virtualbox
 ```
-
-Para ambientes **Mac OSX ou Windows**, vem embutido com o instalador do Genymotion (Se escolher essa opção).
+Para ambientes **Mac OSX ou Windows** você pode instalá-lo acessando o link https://www.virtualbox.org/wiki/Downloads ou optar por instalar junto com o Genymotion.
 
 Agora vamos acessar o site https://www.genymotion.com/fun-zone/ e clicar no botão “Download Genymotion Personal Edition”. O Genymotion vai pedir que você crie uma conta na plataforma, realize esse processo e depois você poderá baixar o software
 
