@@ -22,7 +22,7 @@ Na mesma janela de "Variáveis de ambiente" no Windows, clique na variável PATH
 ```
 %ANDROID_HOME%\tools
 ```
-*OBS: Sempre coloque ponto-e-virgula ";" no final dos caminhos como visto no exemplo abaixo para eles não se juntarem:*
+**OBS: Sempre coloque ponto-e-virgula ";" no final dos caminhos como visto no exemplo abaixo para eles não se juntarem:**
 
 
 Agora, abra seu Command Prompt ou PowerShell como administrador e execute o seguinte comando:
