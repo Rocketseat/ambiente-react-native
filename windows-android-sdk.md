@@ -31,4 +31,4 @@ Agora, abra seu Command Prompt ou PowerShell como administrador e execute o segu
 C:\Android\Sdk\tools\bin\sdkmanager  "platform-tools" "platforms;android-27" "build-tools;27.0.3" 
 ```
 
-*Aceite todas licensas digitando `y` quando necessário.
+*Aceite todas licenças digitando `y` quando necessário.
