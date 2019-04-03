@@ -32,7 +32,6 @@ O ambiente Android pode ser configurado no Mac OSX, Linux e Windows, siga o guia
 2. Instale a configure a SDK do Android: [Configurando SDK](unix-android-sdk.md)
 3. Instale e configure o emulador Genymotion: [Configurando Genymotion](genymotion.md)
 
-
 ### OS X (Mac)
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](osx-dependencias.md)
@@ -54,6 +53,10 @@ Você pode ainda escolher a versão do emulador utilizado passando uma proprieda
 ```sh
 react-native run-ios --simulator="iPhone XS Max"
 ```
+
+## Emulando via Wi-Fi
+
+Se você deseja emular seu aplicativo em um dispositivo físico utilizando Wi-Fi, veja [esse guia](wifi.md).
 
 ## Erros comuns
 
