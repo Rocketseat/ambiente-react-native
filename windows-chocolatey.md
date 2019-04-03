@@ -54,7 +54,7 @@ choco install -y nodejs.install python2 jdk8 yarn
 
 Agora, vamos reiniciar o Terminal (Não se preocupe, ele não vai fechar!)
 ```sh
-refleshenv
+refreshenv
 ```
 
 Agora com as dependências instaladas, vamos instalar o CLI (Command Line Interface) do React Native que nos ajudará na criação e teste de novos projetos. Nesse passo você provavelmente deve reiniciar seu terminal para o comando funcionar.
