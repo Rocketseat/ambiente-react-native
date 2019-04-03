@@ -60,8 +60,9 @@ refleshenv
 Agora com as dependências instaladas, vamos instalar o CLI (Command Line Interface) do React Native que nos ajudará na criação e teste de novos projetos. Nesse passo você provavelmente deve reiniciar seu terminal para o comando funcionar.
 
 ```sh
-npm install -g react-native-cli
-```
+yarn add global react-native-cli
+# Ou npm install -g react-native-cli
+``` 
 
 Se tudo ocorreu bem até aqui, você conseguirá executar o seguinte comando:
 
