@@ -1,3 +1,3 @@
-Esse guia mudou, acesse: https://docs.rocketseat.dev/ambiente-react-native/introducao
+Esse guia mudou, acesse: http://react-native.rocketseat.dev/
 
 Melhorias, issues, sugestões redirecionar para: https://github.com/Rocketseat/docs
